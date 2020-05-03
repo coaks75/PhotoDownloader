@@ -178,7 +178,7 @@ namespace PhotoDownloader.Controllers
             string folderPath = path + Path.DirectorySeparatorChar + "wwwroot" + Path.DirectorySeparatorChar + "SamplePictures" + Path.DirectorySeparatorChar;
             string relativePath = "~/SamplePictures/";
 
-            var filters = new String[] { "jpg", "jpeg", "png", "gif", "tiff", "bmp", "svg", "JPG" };
+            var filters = new String[] { "jpg", "jpeg", "png", "gif", "tiff", "bmp", "svg" };
             bool isRecursive = false;
 
             List<String> filesFound = new List<String>();
