@@ -6077,11 +6077,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Chris\\Desktop\\PhotoDownloader\\PhotoDownloader\\PhotoDatabase.csproj",
+      "projectUniqueName": "C:\\Users\\Chris\\Desktop\\PhotoDownloader\\PhotoDatabase\\PhotoDatabase.csproj",
       "projectName": "PhotoDatabase",
-      "projectPath": "C:\\Users\\Chris\\Desktop\\PhotoDownloader\\PhotoDownloader\\PhotoDatabase.csproj",
+      "projectPath": "C:\\Users\\Chris\\Desktop\\PhotoDownloader\\PhotoDatabase\\PhotoDatabase.csproj",
       "packagesPath": "C:\\Users\\Chris\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Chris\\Desktop\\PhotoDownloader\\PhotoDownloader\\obj\\",
+      "outputPath": "C:\\Users\\Chris\\Desktop\\PhotoDownloader\\PhotoDatabase\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

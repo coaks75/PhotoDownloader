@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Afc0HHJ+pAS0jWKZ16uOet/Ef7ttSqDOBiqr5z7WTKbT7xetwl9I4SHZZaH3FMF4DedWDEH2zcLgZdjvEwg2/g==",
+  "dgSpecHash": "3E03bykFRllOAM/MKQSNwa7zHgtToelTkh3Mx+l2/dg4E5OZMqK69l0NwWxbNj4IP1Pg15GRLfg4QcW+bTVNCg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Chris\\Desktop\\PhotoDownloader\\PhotoDownloader\\PhotoDatabase.csproj",
+  "projectFilePath": "C:\\Users\\Chris\\Desktop\\PhotoDownloader\\PhotoDatabase\\PhotoDatabase.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Chris\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Chris\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

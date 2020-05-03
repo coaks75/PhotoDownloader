@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29926.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhotoDatabase", "PhotoDownloader\PhotoDatabase.csproj", "{77F1D149-0A1F-47D6-9706-27B82899E1BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhotoDatabase", "PhotoDatabase\PhotoDatabase.csproj", "{B9156BDC-A209-47CC-BCA0-44E36C35C209}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{77F1D149-0A1F-47D6-9706-27B82899E1BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{77F1D149-0A1F-47D6-9706-27B82899E1BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{77F1D149-0A1F-47D6-9706-27B82899E1BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{77F1D149-0A1F-47D6-9706-27B82899E1BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9156BDC-A209-47CC-BCA0-44E36C35C209}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9156BDC-A209-47CC-BCA0-44E36C35C209}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9156BDC-A209-47CC-BCA0-44E36C35C209}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9156BDC-A209-47CC-BCA0-44E36C35C209}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
