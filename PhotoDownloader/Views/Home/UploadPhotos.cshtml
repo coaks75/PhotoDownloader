@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewData["Title"] = "Upload Photos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Upload Photos</h1>
+
+<p>Please don't upload any pictures more than once!</p>
+
+@using (Html.BeginForm("UploadPhotosPost", "Home", new { id = "" }, FormMethod.Post, true, new { enctype = "multipart/form-data" }))
+{
+    <div class="fileUpload btn btn-primary">
+        <span>Select Images</span><input type="file" accept="image/*" id="file" name="selectFiles" class="upload" onchange="DisplayFilesToUpload()" multiple />
+    </div>
+    <p id="FilesToUpload"></p>
+}
+
+
+<script>
+
+    //Lists the file name and size for all files to be uploaded by updating the <p id="FilesToUpload"></p> control
+    function DisplayFilesToUpload() {
+        var element = document.getElementById("file");
+        var html = "";
+
+        html = "<h3>Image(s) to Upload</h3>"
+        for (var i = 0; i < element.files.length; i++) {
+            html += "<strong>" + (i + 1) + "</strong>. File: ";
+            var file = element.files[i];
+            if ('name' in file) { html += file.name + " ("; }
+            if ('size' in file) { html += "size: " + file.size + " bytes)<br>"; }
+        }
+
+        html += "<div class='fileUpload btn btn-default'><span>Upload</span><input type='submit' class='upload' value='Upload'/></div>"
+        document.getElementById("FilesToUpload").innerHTML = html;
+    }
+
+</script>

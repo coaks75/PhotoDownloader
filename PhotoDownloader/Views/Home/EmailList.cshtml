@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewData["Title"] = "EmailList";
+}
+
+<h1>Email List</h1>
+<p>If you would like, I can save your email and notify you when my model can transform black and white images into colored images!</p>
+@using (Html.BeginForm("EmailList", "Home", FormMethod.Post))
+{
+    <label for="email">Enter your email:</label>
+    <input type="email" id="email" name="email">
+    <button type="submit">Submit</button>
+}

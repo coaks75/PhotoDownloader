@@ -1,0 +1,14 @@
+﻿@model IEnumerable<PhotoDatabase.Models.SamplePicture>
+
+@{
+    ViewData["Title"] = "SamplePictures";
+}
+
+<h4>Examples of Photos:</h4>
+
+@foreach (var item in Model)
+{
+    var loc = Url.Content(item.FileLocation);
+    <img src="@loc" alt="@item.AltText" style="max-width:50%;width:auto; max-height:50%;height:auto" />
+    <h1></h1>
+}

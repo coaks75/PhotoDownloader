@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Thanks for visiting my site.</p>
+    <p>I made this so that people can upload colored photos for me so I can compile a large dataset of images to run some machine learning algorithms on.</p>
+    <p>Please click the upload tab above to be directed to the upload page.</p>
+    <p>Oh, and don't worry, I won't even be looking at these images myself whatsoever. They are purely so my model can learn about photos.</p>
+    <p>Thank you!</p>
+
+    @{Html.RenderPartial("SamplePictures");}
+
+</div>
