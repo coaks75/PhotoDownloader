@@ -48,6 +48,7 @@ namespace PhotoDownloader
                         "  Total size of drive:            {0, 15} bytes ",
                         d.TotalSize);
 
+                    // This is the name of the flash drive that I am using to store all the images
                     if (d.VolumeLabel.Contains("HACKERMAN"))
                     {
                         DriveLocation = d.VolumeLabel;
@@ -55,6 +56,8 @@ namespace PhotoDownloader
 
                 }
             }
+
+            // In case the flash drive location is not found, just save to desktop
             BackupLocation = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + Path.DirectorySeparatorChar + "Desktop";
             Console.WriteLine("\n\n\n\n");
 

@@ -28,6 +28,7 @@ namespace PhotoDownloader.Controllers
             Console.WriteLine("Backup directory: " + Startup.BackupLocation);
             Console.WriteLine();
 
+            // Since we are rendering the sample pictures view inside our index view, we need to run the action method here
             SamplePictures();
 
             return View();

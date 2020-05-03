@@ -229,3 +229,5 @@ C:\Users\Chris\Desktop\PhotoDownloader\PhotoDatabase\obj\Debug\netcoreapp3.1\Pho
 C:\Users\Chris\Desktop\PhotoDownloader\PhotoDatabase\obj\Debug\netcoreapp3.1\PhotoDatabase.pdb
 C:\Users\Chris\Desktop\PhotoDownloader\PhotoDatabase\obj\Debug\netcoreapp3.1\PhotoDatabase.genruntimeconfig.cache
 C:\Users\Chris\Desktop\PhotoDownloader\PhotoDatabase\obj\Debug\netcoreapp3.1\PhotoDatabase.csprojAssemblyReference.cache
+C:\Users\Chris\Desktop\PhotoDownloader\PhotoDatabase\bin\Debug\netcoreapp3.1\web.config
+C:\Users\Chris\Desktop\PhotoDownloader\PhotoDatabase\obj\Debug\netcoreapp3.1\Razor\Views\Home\PageNotFound.cshtml.g.cs
