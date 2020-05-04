@@ -2,9 +2,18 @@
     ViewData["Title"] = "Privacy";
 }
 
+<head>
+    <script>
+        function resizeIframe(obj) {
+            obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+        }
+    </script>
+</head>
 
-<h1>@ViewData["Title"]</h1>
-
+<h1>Privacy</h1>
 <p>I will not be looking at these pictures in any way.</p>
 <p>These pictures are purely so my model can learn about colored image pixels and how they turn black and white.</p>
-<p>Any questions please contact <a href="mailto: christophercoakley@kings.edu">christophercoakley@kings.edu</a>.</p>
+<p>Any questions please feel free to contact me down below.</p>
+<div>
+    <iframe src="@Url.Action("SendEmail","Home")" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
+</div>

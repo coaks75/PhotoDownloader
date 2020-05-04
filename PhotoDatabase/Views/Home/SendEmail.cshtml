@@ -1,0 +1,28 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    @*<meta name="viewport" content="width=device-width" />*@
+    <title>Send Email</title>
+    <link rel="stylesheet" href="~/css/StyleSheet.css" />
+</head>
+<body>
+    <form action="mailto: coaks75@gmail.com" method="GET" enctype="text/plain" style="padding:1rem">
+        <div class="field">
+            <label class="label" for="subject">Email Subject</label>
+            <input name="subject" id="subject" type="text" class="input" enctype="text/plain" value="Photo Database">
+        </div>
+        <div class="field">
+            <label class="label" for="body">Email</label>
+            <textarea class="textarea" name="body" id="body" enctype="text/plain"></textarea>
+        </div>
+        <div><input type="submit" value="Send Email" class="button is-primary"></div>
+    </form>
+</body>
+</html>

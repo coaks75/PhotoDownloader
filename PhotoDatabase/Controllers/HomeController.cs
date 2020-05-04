@@ -209,5 +209,10 @@ namespace PhotoDownloader.Controllers
             return View(samples);
         }
 
+        public IActionResult SendEmail()
+        {
+            return View();
+        }
+
     }
 }

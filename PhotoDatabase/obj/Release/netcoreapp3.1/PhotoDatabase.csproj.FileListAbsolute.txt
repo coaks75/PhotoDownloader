@@ -198,7 +198,6 @@ C:\Users\Chris\Desktop\PhotoDownloader\PhotoDatabase\bin\Release\netcoreapp3.1\r
 C:\Users\Chris\Desktop\PhotoDownloader\PhotoDatabase\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Chris\Desktop\PhotoDownloader\PhotoDatabase\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Chris\Desktop\PhotoDownloader\PhotoDatabase\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Chris\Desktop\PhotoDownloader\PhotoDatabase\obj\Release\netcoreapp3.1\PhotoDatabase.csprojAssemblyReference.cache
 C:\Users\Chris\Desktop\PhotoDownloader\PhotoDatabase\obj\Release\netcoreapp3.1\PhotoDatabase.csproj.CoreCompileInputs.cache
 C:\Users\Chris\Desktop\PhotoDownloader\PhotoDatabase\obj\Release\netcoreapp3.1\PhotoDatabase.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Chris\Desktop\PhotoDownloader\PhotoDatabase\obj\Release\netcoreapp3.1\PhotoDatabase.RazorAssemblyInfo.cache
@@ -230,3 +229,5 @@ C:\Users\Chris\Desktop\PhotoDownloader\PhotoDatabase\obj\Release\netcoreapp3.1\s
 C:\Users\Chris\Desktop\PhotoDownloader\PhotoDatabase\obj\Release\netcoreapp3.1\PhotoDatabase.dll
 C:\Users\Chris\Desktop\PhotoDownloader\PhotoDatabase\obj\Release\netcoreapp3.1\PhotoDatabase.pdb
 C:\Users\Chris\Desktop\PhotoDownloader\PhotoDatabase\obj\Release\netcoreapp3.1\PhotoDatabase.genruntimeconfig.cache
+C:\Users\Chris\Desktop\PhotoDownloader\PhotoDatabase\obj\Release\netcoreapp3.1\PhotoDatabase.csprojAssemblyReference.cache
+C:\Users\Chris\Desktop\PhotoDownloader\PhotoDatabase\obj\Release\netcoreapp3.1\Razor\Views\Home\SendEmail.cshtml.g.cs
